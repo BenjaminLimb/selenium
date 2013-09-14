@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DefaultTestSuite" parallel="methods" thread-count="10">
+  <!--***** TestNG Configuration for the acceptance tests *****-->
+  <test name="records_api_suite">
+    <!-- Include the acceptance tests-->
+    <groups>
+      <run>
+        <exclude name="basic"/>
+      </run>
+    </groups>
+    <!--Execute all acceptance tests in this package-->
+    <packages>
+      <package name="org.familysearch.search.ui.tests"/>
+    </packages>
+  </test>
+</suite>

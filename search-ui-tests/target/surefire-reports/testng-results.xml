@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DefaultTestSuite" duration-ms="5027" started-at="2013-09-13T21:59:08Z" finished-at="2013-09-13T21:59:13Z">
+    <groups>
+      <group name="basic">
+        <method signature="BasicTest.testA()[pri:0, instance:org.familysearch.search.ui.tests.BasicTest@1aac087b]" name="testA" class="org.familysearch.search.ui.tests.BasicTest"/>
+        <method signature="BasicTest.testAB()[pri:0, instance:org.familysearch.search.ui.tests.BasicTest@1aac087b]" name="testAB" class="org.familysearch.search.ui.tests.BasicTest"/>
+      </group> <!-- basic -->
+    </groups>
+    <test name="records_api_suite" duration-ms="5027" started-at="2013-09-13T21:59:08Z" finished-at="2013-09-13T21:59:13Z">
+      <class name="org.familysearch.search.ui.tests.BasicTest">
+        <test-method status="PASS" signature="testA()[pri:0, instance:org.familysearch.search.ui.tests.BasicTest@1aac087b]" name="testA" duration-ms="5010" started-at="2013-09-13T15:59:08Z" finished-at="2013-09-13T15:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testA -->
+        <test-method status="PASS" signature="testAB()[pri:0, instance:org.familysearch.search.ui.tests.BasicTest@1aac087b]" name="testAB" duration-ms="5010" started-at="2013-09-13T15:59:08Z" finished-at="2013-09-13T15:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAB -->
+      </class> <!-- org.familysearch.search.ui.tests.BasicTest -->
+    </test> <!-- records_api_suite -->
+  </suite> <!-- DefaultTestSuite -->
+</testng-results>
